@@ -1,126 +1,124 @@
-HTML  
-  - HyperText Markup Language  
-  - It is not a programming language; it is a markup language.  
+HTML 
+  - Hyper Text Markup Language
+  - it is not programing Language, it is text language 
 
-<!DOCTYPE>  
-  - We use it to tell the browser the version of HTML.  
-  - It helps render the page in standard mode.  
+<DOCTYPE>
+  - we use it to know the browser the version of HTML
+  - we use it render my page at standard mode
 
-Types of Tags  
-  - Open/Close tag: <p>content</p>  
-  - Self-closing tag: <input>  
+Type of Tags 
+  - Open Close tage <p>content</p>
+  - self close tage <input>
 
-Document Tree  
-  - <head></head>  
-    -- Used to add page details to improve SEO.  
-    -- <meta>: Describes the page's data.  
-  - <body></body>  
+Document Tree
+  - <head></head>
+    -- we use it to add details about page to improve SEO
+    -- <meta> it is description for data
+  - <body></body>
 
-Comments  
-  - <!-- comment -->  
-  - Used to describe the code for the team.  
+Comment
+  - <!-- comment -->
+  - we use it to descripe our code for our team
 
-<h1>  
-  - The page should contain only one <h1> to improve SEO.  
+h1
+  the page cantains only <h1> to improve SEO
 
-Global Attributes  
-  - class, hidden, id, title, etc.  
+Global attribute
+  - class, hidden ...
 
-Specific Attributes  
-  - src, alt, href, type, etc.  
+Specific attribute
+  - src, alt, href ...
 
-Formatting Text  
-  - Bold  
-    -- <b> => bold  
-    -- <strong> => bold and important  
-  - Italic  
-    -- <i> => italic  
-    -- <em> => italic with emphasis  
-  - Highlighted text  
-    -- <mark>  
-  - Underline  
-    -- <u>  
-  - Smaller text  
-    -- <small>  
-  - Strikethrough  
-    -- <del> => helpful for SEO  
-  - Subscript  
-    -- <sub>H2O</sub>  
-  - Superscript  
-    -- <sup>2</sup> (e.g. 2²)  
+Formating Text
+  - bold
+    -- b => bold
+    -- strong => bold => important
+  - italic
+    -- i => italic
+    -- em => italic => emphasize
+  - hightlighted text
+    -- mark
+  - underline
+    -- u
+  - smaller text
+    -- small
+  - throwline 
+    -- del => to be trust for SEO
+  - subscript
+    -- sub h2o
+  - superscript
+    -- sup 2**2
 
-Anchor Tag  
-  - Used to navigate between pages, sections (by ID), or social media.  
-  - Inline element.  
-  - target attribute:  
-    -- _blank => opens the link in a new tab  
+Anchor tag
+  - we use it to move between pages, setions by id and contact with our media
+  - it is inline
+  - target attribute
+    - _blank => open another page 
 
-Images  
-  - src  
-    -- Relative path  
-    -- Absolute path  
-  - alt (alternative text)  
-    -- Appears if the image is not found and helps SEO  
+Images
+  - src
+    -- relative path
+    -- absolute path
+  - alt  alternative text
+    -- it appeare if image not found and improve SEO
 
-Lists  
-  - Unordered List  
-    -- <ul> => <li>  
-    -- Displays bullets  
-    -- Can nest <ul> inside another  
-  - Ordered List  
-    -- <ol> => <li>  
-    -- type attribute => numbers, letters, etc.  
-    -- start attribute => custom starting number  
-  - Description List  
-    -- <dl> => <dt> (term) => <dd> (description)  
+List
+  - unOrder List
+    -- ul => li
+    -- order by shaps 
+    -- nest ul
+  - order List
+    -- ol => li
+    -- type attribute => order by numbers or alphabites or ....
+    -- start attribute 
+  - description List
+    -- dl => dt (description term) => dd => (description of term)
 
-Table  
-  - <table>  
-    -- <caption> => Table title  
-    -- <thead> => <tr> => <th>, <td>  
-    -- <tbody> => <tr> => <td>  
-    -- <tfoot> => <tr> => <td>  
-    -- colspan => merge columns  
+table 
+  - table
+    -- caption => put title for table
+    -- thead => tr (table row) => th (table head), td (table data)
+    -- tbody => tr (table row) => td (table data)
+    -- tfoot => tr (table row) => td (table data)
+    -- colspan => to merge columns
 
-<span>  
-  - Inline element  
+span
+  - inline element
 
-<br>  
-  - Breaks to a new line  
+br 
+  - down new line 
 
-<hr>  
-  - Horizontal line  
-  - Block element  
+hr 
+  - horizontal line 
+  - block element
 
-<div>  
-  - Used as a container  
-  - Block element  
+div
+  - we use dev as container 
+  - block element
 
-HTML Entities  
-  - Example: &lt;, &gt;, &amp;, &nbsp;  
+HTML Entities
+  - &content;
 
-HTML5  
-  - Semantic Elements  
-    -- header, nav, section, aside, main, article, footer  
-    -- Makes code clean and improves SEO  
-    -- Block elements  
-  - Video  
-    -- <source>  
-    -- Attributes: controls, muted, autoplay, loop, poster  
-    -- <track>: for captions or subtitles  
-  - Audio  
-    -- <source>  
+HTML5 
+  - Semantic Elements
+    -- header, nav, section, aside, main, artical, footer 
+    -- make clean code and improve SEO
+    -- block element
+  - Vedeo => source
+    -- controls, mute, autoplay, loop, poster
+    -- track tag => we can put in it translate file ....
+  - Audio => source
 
-Input  
-  - Inline element  
-  - Self-closing tag  
-  - type => search, url, date, etc.  
-  - Common attributes: value, name, required, placeholder, autofocus  
-  - readonly => included in the request  
-  - disabled => not included in the request  
+Input 
+  - inline element
+  - self close tag
+  - type => search, url, date
+  - value, name, required, placeholder, autofocus attribute
+  - readonly attribute => it sended in requist
+  - disable attribute => it does not sended in requist
 
-Form  
-  - action attribute: where to send the data  
-  - method:  
-    -- GET => sends data in the URL  
-    -- POST => more secure because data is hidden
+Form
+  - action attribute
+  - method
+    -- GET 
+    -- POST => more scuire because data not appeare at url
