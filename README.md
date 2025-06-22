@@ -126,3 +126,168 @@ This project is a quick reference guide to basic HTML elements, structure, attri
 
 * `action`: Destination URL
 * `method`: `GET` (data in URL) or `POST` (hidden, more secure)
+
+* what is default mode for rendering html page?
+ standard and quirks mode
+
+---------
+
+
+- **Question**: What are ARIA roles, and how do you use them to improve accessibility?
+- **Answer**: ARIA (Accessible Rich Internet Applications) roles provide additional semantic information to assistive technologies. For example, `role="button"` can make a div element behave like a button to screen readers. They are used to improve the accessibility of dynamic content
+
+
+- **Question**: What are data attributes in HTML and how do you use them?
+- **Answer**: Data attributes are custom attributes prefixed with `data-`, used to store extra information on HTML elements without using global attributes or JS variables. Example:
+
+----------
+
+what's geolocation?
+API lets you share your location with your favorite websites. A JavaScript can capture your latitude and longitude 
+
+------
+
+What are the graphics elements in html5?/ SVG vs Canvas?
+
+----
+
+What Are Web Workers in HTML5?
+Web Workers are a feature in HTML5 that allow you to run JavaScript code in the background, separately from the main thread (the UI thread).
+This means heavy tasks can run without freezing or slowing down the user interface.
+
+---
+
+What is HTML5 Web Storage?
+HTML5 Web Storage is a feature that allows websites to store data in the browser, more efficiently and securely than traditional cookies.
+
+7	What is Server Side Events in HTML5?
+
+---
+
+8	What are web sockets?
+
+---
+
+11	how to support old browsers with svg?
+
+---
+
+What Is Browser Optimization?
+Browser optimization means making your website or web application load faster, run smoother, and use less memory or CPU when viewed in a web browser.
+
+---
+
+
+Why is it generally a good idea to position CSS <link>s between <head></head> and JS <script>s just before </body>? Do you know any exceptions?
+
+✅ Why Place <link> (CSS) in <head> and <script> (JS) before </body>?
+🔷 CSS <link> in <head>:
+Reason: The browser needs to load and apply styles before rendering the page.
+
+If you delay loading CSS, users might see an unstyled page briefly (FOUC – Flash of Unstyled Content).
+
+Placing it in <head> ensures smooth, styled loading.
+
+🔷 JS <script> before </body>:
+Reason: JavaScript can block HTML parsing.
+
+Putting scripts at the end allows the HTML to load first, making the page appear faster to the user.
+
+
+----------
+
+why html is hyper?
+
+The term "hyper" means beyond or non-linear.
+
+Unlike traditional text (like in books, which you read line by line, page by page), hypertext lets you:
+
+Jump from one page to another using hyperlinks
+
+Navigate across different parts of the web
+
+Move beyond the limits of sequential reading
+
+
+----------
+
+
+what type of elements in html ? 
+  structure element => html body head section artical ....
+  text element => h1 to h6, p, div, span ....
+  Media Elements => video , audio, convas ...
+  lists => ol ul 
+  tables => table tbody thead ....
+  Forms => form input label .....
+
+---------
+
+What is the meta Tag that make media query work ?
+
+
+-------
+
+how browser understand the html tags?
+
+-----
+
+what is the tag that hasn’t any  data appear in browser window , and what is contain?
+
+--------
+
+tell me 5 uses of anchor link ?
+
+--------
+
+How can I run java script code through <a> tag?
+  excute a function at onClick
+  write javascript in href
+
+
+-------
+
+can I use negative number in row or column span ?  
+ No
+
+--------
+
+if ID is not unique what is issues will happen in html , CSS and JS?
+
+-----
+
+
+what are 3 ways used for rendering java script ?
+  inline => onClick
+  internal => <script></script>
+  external => file.js
+
+------
+
+what difference between no script and script?
+
+-----
+
+what different types of linking resources ?
+  script, link, image, a
+
+------
+
+Define Image Map?
+
+------
+
+what is names of shapes used in image map?
+
+-------
+
+how can I upload image from type image only?
+<input type="file" accept="image/*">
+
+-------
+
+why we can use input with hidden type ?  
+
+
+-----
+
+why name and value are important in any element input ?
